@@ -9,12 +9,14 @@
 .container.entry h1{
 
     font-size: 2em;
+    font-weight: bold;
 }
 
 .container.entry img{
 
     width: 300px;
     height: 300px;
+    
 }
 
 /*Contenedor working.html*/
