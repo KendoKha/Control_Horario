@@ -1,0 +1,23 @@
+#present{
+    width: 700px;
+    height: 650px;
+    margin-left: 620px;
+    border: 10px solid #03F;
+    border-radius: 30px;
+    margin-top: 40px;
+    }
+    
+img {
+    width: 100%;
+    height: 100%;
+    border-radius: 35px;
+    }
+
+button {
+    margin-left: 920px;
+    margin-top: 50px;
+    width: 140px;
+    height: 70px;
+    font-size: 24px;
+
+    }
