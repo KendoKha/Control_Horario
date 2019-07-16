@@ -1,34 +1,36 @@
 /*Contenedor padre*/
-.container {
 
+.container {
     margin-top: 80px;
     width: 45% !important;
 }
 
-/*Contenedor login.html*/
-.container.entry h1{
+.container img {
+    width: 150px;
+    height: 150px;
+}
 
+
+/*Contenedor login.html*/
+
+.container.entry h1 {
     font-size: 2em;
     font-weight: bold;
 }
 
-.container.entry img{
-
+.container.entry img {
     width: 300px;
     height: 300px;
-    
 }
+
 
 /*Contenedor working.html*/
-.container.working img{
 
+.container.working img {
     width: 300px;
     height: 300px;
 }
 
-.container.working h3{
-
+.container.working h3 {
     color: green;
-    
 }
-
