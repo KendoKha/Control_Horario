@@ -1,5 +1,3 @@
-//const btnIniciar = document.getElementById('idBtnIniciar');
-
 // Función botón inicio
 function iniciarApp() {
 
