@@ -12,12 +12,16 @@ function changeText(node, newText) {
 
 // Agregamos un controlador de eventos al objeto ventana
 window.addEventListener('click', function(event) {
+
     const img = document.querySelector('img'); // Guarda referencia al nodo image usando querySelector
     const buttonValue = event.target.textContent; // Guarda el valor del texto del nodo button
-    const button = this.document.querySelector('button'); // Guarda referencia al nodo button 
+    const button = this.document.querySelector('button'); // Guarda referencia al priemer nodo button 
+    const btnStop = this.document.getElementById('btnStop'); // Guarda ref al botón Stop
+    btnStop.style.visibility = 'hidden';
     const h1 = this.document.querySelector('h1'); // Guarda referencia al nodo h1
 
     if (buttonValue === 'FICHAR') { // Si el texto del nodo button conincide con la condición
+
         img.src = "../img/pause-round-button.png"; // ... cambia imagen 
 
         changeText(h1, "Working ...") // ... y cambia texto del h1
