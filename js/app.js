@@ -23,6 +23,9 @@ window.addEventListener('click', function(event) {
         changeText(h1, "Working ...") // ... y cambia texto del h1
             //return button.textContent = "PAUSE";
         return changeText(button, "PAUSE"); // ... además cambia texto del botón
+        let btn = this.document.createElement('button');
+        btn.id = 'btnStop';
+        btn.textContent = "STOP";
     }
 
     img.src = "../img/play-button.png";
